@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>폼과테이블</title>
+</head>
+
+<body>
+
+    table는 테이블을 만들어주는 명렁어<br>
+    td는 셀안의 내용을 기입<br>
+    tr는 셀 띄어쓰기<br>
+    th는 각 테이블의 행을 생성 표 제일 상단의 tr에 들어가야함<br>
+    thead,tbooy,tfoot는 각각의 행에 대한 표시형식<br>
+    rowspan은 가로로 차지할 칸수 colspan은 가로로 차지할 칸의 수<br>
+
+
+    <h1>폼과 테이블</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>동물</th>
+                <th>평균무게</th>
+                <th>최대무게비</th>
+                <th>비행여부</th>
+            </tr>
+        </thead>
+        <tbooy>
+            <tr>
+                <td>타조</td>
+                <td>102</td>
+                <td>156.8</td>
+                <td>no</td>
+            </tr>
+            <tr>
+                <td>소말리아타조</td>
+                <td>240</td>
+                <td>130</td>
+                <td>no</td>
+            </tr>
+            <tr>
+                <td>화식조</td>
+                <td>13.5</td>
+                <td>39</td>
+                <td>yes</td>
+            </tr>
+        </tbooy>
+    </table>
+
+
+    <h2>두번째 표</h2>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">동물</th>
+                <th colspan="2">평균무게</th>
+                <th rowspan="2">비행여부</th>
+            </tr>
+            <tr>
+                <th>kg</th>
+                <th>LB</th>
+            </tr>
+        </thead>
+        <tbooy>
+            <tr>
+                <td>타조</td>
+                <td>102</td>
+                <td>102</td>
+                <td>no</td>
+            </tr>
+            <tr>
+                <td>소말리아타조</td>
+                <td>240</td>
+                <td>240</td>
+                <td>no</td>
+            </tr>
+            <tr>
+                <td>화식조</td>
+                <td>13.5</td>
+                <td>13.5</td>
+                <td>yes</td>
+            </tr>
+        </tbooy>
+    </table>
+
+</body>
+
+</html>
