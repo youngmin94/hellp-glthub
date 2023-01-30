@@ -1,0 +1,48 @@
+/* {
+    color: pink;
+    background-color: cyan;
+}*/
+
+booy {
+    background-color: #f1faee;
+    ;
+}
+
+button {
+    font-size: 30px;
+    background-color: #a8dadc;
+}
+
+h1,
+h2 {
+    color: #1d3557;
+}
+
+#signup {
+    color: #f1faee;
+    background-color: #1d3557;
+    ;
+}
+
+span {
+    color: #457bad;
+}
+
+.tag {
+    background-color: #e63946;
+    color: #f1faee;
+    font-size: 16px;
+}
+
+.funny a {
+    color: #457bad;
+}
+
+.dogfan a {
+    color: #457bad;
+}
+
+footer a {
+    color: #e63946;
+    font-size: 30px;
+}

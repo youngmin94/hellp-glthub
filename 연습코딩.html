@@ -15,25 +15,29 @@
         </thead>
     <form action="/tacos">
         <label for="First Name">First Name</label>
-        <input type="text" id="First Name" name="placeholder"> <label for="Last Name">Last Name</label>
-        <input type="text" id="Last Name" name="Last Name"></p>
+        <input type="text" id="First Name" name="placeholder" placeholder="First Name" required="" minlength="5"
+            maxlength="10">
+        <label for="Last Name">Last Name</label>
+        <input type="text" id="Last Name" name="Last Name" placeholder="Last Name" required="" minlength="5"
+            maxlength="10"></p>
 
         <p>
         <h3>Select a Race:</h3>
         </p>
-        <p><input type="radio" name="radio" id="Fun Run 5k" value="Fun Run 5k">
+        <p><input type="radio" name="radio" id="Fun Run 5k" value="Fun Run 5k" required="">
             <label for="Fun Run 5k">Fun Run 5k</label>
         </p>
-        <p><input type="radio" name="radio" id="Half Marathon" value="Half Marathon">
+        <p><input type="radio" name="radio" id="Half Marathon" value="Half Marathon" required="">
             <label for="Half Marathon">Half Marathon</label>
         </p>
-        <p><input type="radio" name="radio" id="Full Marathon" value="Full Marathon">
+        <p><input type="radio" name="radio" id="Full Marathon" value="Full Marathon" required="">
             <label for="Full Marathon">Full Marathon</label>
         </p>
         <label for="Email">Email</label>
-        <input type="text" id="Email" name="Email">
+        <input type="Email" id="Email" name="Email" required="" placeholder="Email">
         <label for="Email">password</label>
-        <input type="password" id="password" name="password"></p>
+        <input type="password" id="password" name="password" required="" minlength="5" maxlength="10"
+            placeholder="password"></p>
         <hr>
         <label for="우유">Select Age Group</label>
         <select name="우유" id="우유">

@@ -23,15 +23,7 @@
     라디오 옵션은 똑같은 네임으로 생성해야 한그룹으로 만들수있고 벨류는 서버에 전송되는 정보다<br>
     select을 사용해 선택창을 만들수있다 option가 하위에 있어야하고 valuer값을 지정해줘야한다.<br>
     type="range 사용하면 슬라이더 생성가능 벨류값 지정하면그 지정값에서 시작<br>
-
-
-
-
-
-
-
-
-
+    required는 text창에 값을 입력해야만 폼을 제출할수있게 해준다.<br>
 
     <h1>Forms Demo</h1>
 
@@ -94,8 +86,27 @@
         <input type="range" id="슬라이더" min="0" mix="100" value="50" name="슬라이더">
 
         <label for="">텍스트입력창</label>
-        <textarea id="텍스트입력" rows="10" cols="100" name=텍스트입력 placeholder="텍스트입력"></textarea>
-        <button>Submit</button>
+        <p>
+            <textarea id="텍스트입력" rows="10" cols="100" name=텍스트입력 placeholder="텍스트입력"></textarea>
+            <button>Submit</button>
+        <h2>Validations Demo</h2>
+        </p>
+        <form action="/dumy">
+            <label for="first">Enter First Name</label>
+            <input type="text" name="first" id="first" placeholder="first" required="">
+            <p>
+                <label for="username">Username</label>
+                <input type="text" name="user" id="user" placeholder="user" required="" minlength="5" maxlength="10">
+            </p>
+            <p>
+                <input type="email" name="email" id="email" placeholder="email" required="" placeholder="user>
+            <p>
+                <input type=" url" name="url" id="url" placeholder="url" required="">
+                <button>Submit</button>
+            </p>
+            </p>
+        </form>
+
     </form>
 
 </body>
